@@ -1,11 +1,13 @@
+// TODO - Checklist
+
 // 1 Principal Diagonal Elements        - DONE
-// 2 Upper Triangle Elements 
-// 3 Lower triangle elements 
-// 4 Transpose                          - DONE
-// 5 Check if unit matrix or not        - Work in Prog
-// 6 Reverse Diagonal                   - Bug
-// 7 Row wise totals                    - DONE
-// 8 col wise totals                    - DONE
+// 2 Reverse Diagonal                   - Work in Prog
+// 3 Transpose                          - DONE
+// 4 Check if unit matrix or not        - DONE
+// 5 Row wise totals                    - DONE
+// 6 col wise totals                    - DONE
+// 7 Upper Triangle Elements 
+// 8 Lower triangle elements 
 
 #include <iostream>
 #include <conio.h>
@@ -48,13 +50,13 @@ int main(){
         }
     }
 
-// 6 Reverse Diagonal 
+// 2 Reverse Diagonal 
 
 
     cout << "\nReverse Diagonal Elements are : ";
     int ex=0, ey=col-1;
-    for (i = 0; i < 0; i++){
-        for (j = 0; j < 0; j++){
+    for (i = 0; i < row; i++){
+        for (j = 0; j < col; j++){
             if(i == ex && j == ey){
                 cout << mat[i][j] << " ";
                 ex++;
@@ -64,7 +66,7 @@ int main(){
     }
 
 
-// 4 Transpose
+// 3 Transpose
 
 
     cout << "\n\nTranspose of the Matrix is : \n\n";
@@ -75,7 +77,8 @@ int main(){
         cout << "\n";
     }
 
-// 5 Check if its a unit matrix or not
+// 4 Check if its a unit matrix or not
+
     if(row == col){
         int chkU = 0;
         for (i = 0; i < row; i++){
@@ -103,7 +106,7 @@ int main(){
             cout << "It is a Unit Matrix";
     }
 
-    // Row wise totals
+    // 5 Row wise totals
     cout << "\n\nRow Wise total is : ";
 
     for (i = 0; i < row; i++){
@@ -114,7 +117,7 @@ int main(){
         cout << x << " ";
     }
 
-    // col wise totals 
+    // 6 col wise totals 
 
 
     cout << "\nCol Wise total is : ";
