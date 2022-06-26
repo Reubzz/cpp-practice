@@ -1,7 +1,7 @@
 // TODO - Checklist
 
 // 1 Principal Diagonal Elements        - DONE
-// 2 Reverse Diagonal                   - Work in Prog
+// 2 Reverse Diagonal                   - DONE
 // 3 Transpose                          - DONE
 // 4 Check if unit matrix or not        - DONE
 // 5 Row wise totals                    - DONE
