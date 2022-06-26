@@ -82,30 +82,31 @@ int main(){
             for ( j = 0; j < col; j++){
                 if(i==j){
                     if(mat[i][j] == 1)
-                        chkU++;
+                        chkU = 1;
                     else 
-                        chkU=0;
+                        chkU = 0;
                 }
                 else if(i != j){
                     if(mat[i][j] == 0)
-                        chkU++; 
+                        chkU = 1; 
                     else 
-                        chkU=0;
+                        chkU = 0;
                 }
-                else { chkU=0; }
+                else
+                    chkU = 0; 
             }
         }
         cout << endl << endl;
-        if(chkU = 0)
+        if(chkU == 0)
             cout << "It is not a Unit Matrix";
         else 
             cout << "It is a Unit Matrix";
     }
 
     // Row wise totals
+    cout << "\n\nRow Wise total is : ";
 
     for (i = 0; i < row; i++){
-        cout << "\n\nRow Wise total is : ";
         int x=0;
         for ( j = 0; j < col; j++){
             x += mat[i][j];
@@ -116,13 +117,13 @@ int main(){
     // col wise totals 
 
 
+    cout << "\nCol Wise total is : ";
     for (i = 0; i < row; i++){
-        cout << "\nCol Wise total of col " << i+1 << " is : ";
         int x=0;
         for ( j = 0; j < col; j++){
             x += mat[j][i];
         }
-        cout << x;
+        cout << x << " ";
     }
     
     return 0;
