@@ -21,6 +21,8 @@ int main()
   cout << "\nWhat is the Size of the Queue : ";
   cin >> n;
   que = new int[n];
+  for(i=0; i < n; i++)
+    que[i] = 0;
   x = 1;
   while (x)
   {
