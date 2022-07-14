@@ -9,7 +9,10 @@ void ins(int);
 void del();
 void display();
 
-int que[30], f = -1, r = -1, i, n, elem;
+int f = -1, r = -1, i, n, elem;
+int* que;
+
+
 int main()
 {
   // clrscr();
@@ -17,6 +20,7 @@ int main()
 
   cout << "\nWhat is the Size of the Queue : ";
   cin >> n;
+  que = new int[n];
   x = 1;
   while (x)
   {
@@ -44,6 +48,7 @@ int main()
     cout << "\n\n Do you want to continue? (1 = Yes / 0 = No) : ";
     cin >> x;
   }
+  delete[] que;
   return 0;
 }
 
