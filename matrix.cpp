@@ -50,7 +50,31 @@ int main(){
         }
     }
 
-// 2 Reverse Diagonal 
+// 2a  finding lower triangle of a Matrix
+    cout<<"\n\nLower Triangle Matrix is:"<<"\n";
+    for(i=0;i<row;i++){
+        for(j=0;j<col;j++) {
+            if(i<j)
+                cout<<"0"<<" ";
+            else
+                cout<<mat[i][j]<<" ";
+        }
+        cout<<"\n";
+    }
+
+// 2b  finding upper triangle of a Matrix
+    cout<<"\nUpper Triangle Matrix is:"<<"\n";
+    for(i=0;i<row;i++) {
+        for(j=0;j<col;j++) {
+            if(i>j) 
+                cout<<"0"<<" ";
+            else
+                cout<<mat[i][j]<<" ";
+        }
+        cout<<"\n";
+    }
+
+// 3 Reverse Diagonal 
 
 
     cout << "\nReverse Diagonal Elements are : ";
