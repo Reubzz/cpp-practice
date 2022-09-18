@@ -10,7 +10,7 @@
 - [Merge Sort](./Merge%20sort.cpp)
 
 ### Matrix:
-- [Add/Sub 2 Matrix](./DSA Programs/Q2-7.cpp)
+- [Add/Sub 2 Matrix](./DSA%20Programs/Q2-7.cpp)
 - [Principal Diagonal](https://github.com/Reubzz/cpp-practice/blob/c51726198ef8b9fc0a74543cb83a9b90abd8043e/DSA%20Programs/Q2.cpp#L42)
 - [Reverse Diagonal](https://github.com/Reubzz/cpp-practice/blob/c51726198ef8b9fc0a74543cb83a9b90abd8043e/DSA%20Programs/Q2.cpp#L77)
 - [Lower Triangle](https://github.com/Reubzz/cpp-practice/blob/c51726198ef8b9fc0a74543cb83a9b90abd8043e/DSA%20Programs/Q2.cpp#L53)
