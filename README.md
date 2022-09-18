@@ -6,8 +6,8 @@
 - [Selection Sort](https://github.com/Reubzz/cpp-practice/blob/8333ff5fa3034f4555d6368e98d1282f53dbbdfd/DSA%20Programs/Q1.cpp#L158)
 - [Bubble Sort](https://github.com/Reubzz/cpp-practice/blob/8333ff5fa3034f4555d6368e98d1282f53dbbdfd/DSA%20Programs/Q1.cpp#L177)
 - [Insertion Sort](https://github.com/Reubzz/cpp-practice/blob/8333ff5fa3034f4555d6368e98d1282f53dbbdfd/DSA%20Programs/Q1.cpp#L195)
-- [Heap Sort](./Heap Sort.cpp)
-- [Merge Sort(./Merge sort.cpp)
+- [Heap Sort](./Heap%20Sort.cpp)
+- [Merge Sort(./Merge%20sort.cpp)
 
 ### Matrix:
 - [Add/Sub 2 Matrix](./DSA Programs/Q2-7.cpp)
@@ -18,7 +18,7 @@
 - [Transpose](https://github.com/Reubzz/cpp-practice/blob/c51726198ef8b9fc0a74543cb83a9b90abd8043e/DSA%20Programs/Q2.cpp#L93)
 - [Unit Matrix](https://github.com/Reubzz/cpp-practice/blob/c51726198ef8b9fc0a74543cb83a9b90abd8043e/DSA%20Programs/Q2.cpp#L104)
 
-- [Marksheet Program](./DSA Programs/Q3.cpp)
+- [Marksheet Program](./DSA%20Programs/Q3.cpp)
 
 ### Types of Data Structures: 
 - [Circular Queue](./QUEUE.CPP)
