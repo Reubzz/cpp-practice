@@ -109,13 +109,13 @@ int main(){
             for ( j = 0; j < col; j++){
                 if(i==j){
                     if(mat[i][j] == 1)
-                        chkU = 1;
+                        chkU++;
                     else 
                         chkU = 0;
                 }
                 else if(i != j){
                     if(mat[i][j] == 0)
-                        chkU = 1; 
+                        chkU++; 
                     else 
                         chkU = 0;
                 }
@@ -124,7 +124,7 @@ int main(){
             }
         }
         cout << endl << endl;
-        if(chkU == 0)
+        if(chkU != (row*col))
             cout << "It is not a Unit Matrix";
         else 
             cout << "It is a Unit Matrix";
