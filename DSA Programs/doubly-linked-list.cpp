@@ -1,5 +1,8 @@
-#include<iostream.h>
+#include<iostream>
 #include<conio.h>
+
+using namespace std;
+
 
 struct dnode
 {
@@ -13,7 +16,7 @@ main ()
   struct dnode *head, *ptr, *newnode;
   int ele, rep;
   int sa = 1;
-  clrscr ();
+  // clrscr ();
 
 
   cout << endl << "enter the first value";
@@ -80,7 +83,6 @@ main ()
       newnode->data = ele;
       newnode->rlink = NULL;
       newnode->llink = NULL;
-//--------------------------------------
       cout << "After which value you want to insert" << endl;
       cin >> val;
       ptr = head;

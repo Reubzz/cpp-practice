@@ -26,17 +26,17 @@ int main(){
     // ptr=head;
 
     do{
-        cout << "enter the value" << endl;
+        cout << "enter next value" << endl;
         cin >> ele;
 
         newnode = new node;
         newnode -> data = ele;
         newnode -> link = NULL;
 
-        ptr->link = newnode;
+        ptr -> link = newnode;
         ptr = ptr->link;
 
-        cout << "any more data?(1=yes/0=no)" << endl;
+        cout << "Any more Data? (1=yes/0=no) : ";
         cin >> rep;
 
     } while (rep);
@@ -85,7 +85,7 @@ int main(){
         cout << "enter the data which you want to delete" << endl;
         cin >> val;
 
-        head = head->link;
+        
 
         struct node *prev;
         ptr = head;
