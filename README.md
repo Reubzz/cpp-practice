@@ -15,7 +15,7 @@
 | **Singly Linked** | O(1) | O(1) | O(1) | - | O(1) |
 | **Doubly Linked** | O(1) | O(1) | O(1) | - | O(1) |
 | **Hash Table** | O(1) | O(1) | O(1) | - | O(1) |
-| **Binary Search Tree** | O(log n) | O(log n) | O(log n) |  | O(log n) |
+| **Binary Search Tree** | O(log n) | O(log n) | O(log n) | - | O(log n) |
 
 
 
