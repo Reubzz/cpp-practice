@@ -4,18 +4,18 @@
 
 | Algorithm | Best | Average | Worst | Space | Deletion | 
 | :--: | :--: | :--: | :--: | :--: | :--: |
-| Selection Sort | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |  |
-| Bubble Sort | O(n) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |  |
-| Insertion Sort | O(n) | O(n <sup>2</sup>) | O(n <sup>2</sup>) | O(1) |  |
-| Merge Sort | O(n log(n)) | O(n log(n)) | O(n log(n)) | O(n) |  |
-| Heap Sort | O(n log(n)) | O(n log(n)) | O(n log(n)) | O(1) |  |
-| Array | O(1) | O(1) | O(1) |  | O(1) |
-| Stack | O(1) | 0(1) | O(1) |  | O(1) |
-| Queue | O(1) | O(1) | O(1) |  | O(1) |
-| Singly Linked | O(1) | O(1) | O(1) |  | O(1) |
-| Doubly Linked | O(1) | O(1) | O(1) |  | O(1) |
-| Hash Table | O(1) | O(1) | O(1) |  | O(1) |
-| Binary Search Tree | O(log n) | O(log n) | O(log n) |  | O(log n) |
+| **Selection Sort** | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |  |
+| **Bubble Sort** | O(n) | O(n<sup>2</sup>) | O(n<sup>2</sup>) | O(1) |  |
+| **Insertion Sort** | O(n) | O(n <sup>2</sup>) | O(n <sup>2</sup>) | O(1) |  |
+| **Merge Sort** | O(n log(n)) | O(n log(n)) | O(n log(n)) | O(n) |  |
+| **Heap Sort** | O(n log(n)) | O(n log(n)) | O(n log(n)) | O(1) |  |
+| **Array** | O(1) | O(1) | O(1) |  | O(1) |
+| **Stack** | O(1) | 0(1) | O(1) |  | O(1) |
+| **Queue** | O(1) | O(1) | O(1) |  | O(1) |
+| **Singly Linked** | O(1) | O(1) | O(1) |  | O(1) |
+| **Doubly Linked** | O(1) | O(1) | O(1) |  | O(1) |
+| **Hash Table** | O(1) | O(1) | O(1) |  | O(1) |
+| **Binary Search Tree** | O(log n) | O(log n) | O(log n) |  | O(log n) |
 
 
 
