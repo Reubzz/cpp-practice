@@ -18,6 +18,7 @@
 | Binary Search Tree | O(log n) | O(log n) | O(log n) | O(log n) |
 
 
+
 - [Linear Search](https://github.com/Reubzz/cpp-practice/blob/8333ff5fa3034f4555d6368e98d1282f53dbbdfd/DSA%20Programs/Q1.cpp#L98)
 
 ### Sorting
