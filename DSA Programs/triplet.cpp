@@ -46,7 +46,7 @@ int main()
   cout << "entered matrix is" << endl;
   for (i = 0; i < n; i++)
   {
-    for (j = 0; j < n; j++)
+    for (j = 0; j < m; j++)
     {
       cout << mat[i][j] << "  ";
     }
